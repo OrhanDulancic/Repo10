@@ -4,10 +4,11 @@ var myPet = {
  legs : 4,
  friends : ["Orhan", "Asmir"]
 };
-function myObject(obj) {
-    return obj;
+
+function myFunction(myObj) {
+    return myObj;
 }
 
-console.log(myObject(myPet));
-
+console.log(myFunction(myPet));
+module.exports = {myPet, myObject};
 
