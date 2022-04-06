@@ -1,4 +1,4 @@
-players = {
+ var players = {
     7: "Muhamed Besic",
     10: "Miralem Pjanic",
     11: "Edin Dzeko"
