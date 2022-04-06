@@ -1,6 +1,6 @@
 var myPet = {
- species : "cukac",
- name : "zlaya",
+ species : "Cukac",
+ name : "Zlaya",
  legs : 4,
  friends : ["Orhan", "Asmir"]
 };

@@ -4,9 +4,11 @@ var lion = {
     tails: 1
 }
 
-function myFunction(par1, par2) {
-    lion[par1] = par2;
+function myFunction(propName, propValue) {
+    lion[propName] = propValue;
     return lion;
 }
 
-console.log(myFunction("roar","roar-roar"));
+console.log(myFunction("roar", "roar-roar"));
+
+module.exports = myFunction;

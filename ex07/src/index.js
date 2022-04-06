@@ -1,14 +1,14 @@
-function myFunction(par1) {
+function myFunction(propName) {
     var lion = {
-        name: "simba",
+        name: "Simba",
         legs: 4,
         tails: 1,
         roar: "roar-roar"
     }
-
-    delete lion[par1];
+    delete lion[propName];
     return lion;
 }
 
 console.log(myFunction("roar"));
+
 module.exports = myFunction;
